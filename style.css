@@ -1,0 +1,42 @@
+body {
+    background: #ED974C;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#root {
+	margin-top: 40px;
+}
+
+form {
+	text-align: center;
+	width: 30%;
+}
+
+label {
+	margin-right: 25px;
+}
+
+input {
+	height: 23px;
+}
+
+.users {
+	margin-top: 50px;
+}
+
+.user {
+	width: 80%;
+	margin: 15px 0 0 25px;
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+	position: absolute;
+	top: 50px;
+	left: 125px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
