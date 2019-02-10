@@ -1,6 +1,12 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
 body {
-    background: #ED974C;
-    font-family: 'Montserrat', sans-serif;
+	background: #ED974C;
+	font-family: 'Montserrat', sans-serif;
 }
 
 #root {
@@ -9,7 +15,6 @@ body {
 
 form {
 	text-align: center;
-	width: 30%;
 }
 
 label {
@@ -21,20 +26,25 @@ input {
 }
 
 .users {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	margin-top: 50px;
 }
 
 .user {
-	width: 80%;
-	margin: 15px 0 0 25px;
+	width: 120px;
+	height: 120px;
+	margin-top: 50px;
 	position: relative;
 }
 
 a {
 	text-decoration: none;
 	position: absolute;
-	top: 50px;
-	left: 125px;
+	top: 50%;
+	left: 120%;
+	transform: translateY(-50%);
 }
 
 a:hover {
